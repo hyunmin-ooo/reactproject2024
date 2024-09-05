@@ -1,0 +1,14 @@
+.cl{
+    border-width: 5px;
+    border-style: groove;
+    border-color: indigo;
+    background-color: tomato;
+    color: darkmagenta;
+    font-style: initial;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    height: 300px;
+}
