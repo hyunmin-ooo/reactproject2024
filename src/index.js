@@ -6,12 +6,22 @@ import reportWebVitals from './reportWebVitals';
 // import Clock from "./chp04/Clock";
 // import CommentList from "./chp05/CommentList";
 import NotificationList from "./chp06/NotificationList";
+import Accommodate from "./chp07/Accommodate";
+import Toggle from "./chp08/Toggle";
+import MyButton from "./chp08/MyButton";
+import Toggle2 from "./chp08/Toggle2";
+import ClickButton from "./chp08/ClickButton";
+import Counter from "./chp08/Counter";
+import InputTest from "./chp08/InputTest";
+import ConfirmButton2 from "./chp08/ConfirmButton2";
+import ConfirmButton3 from "./ConfirmButton3";
+import ConfirmButton from "./chp08/ConfirmButton";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 setInterval(() =>{
     root.render(
         <React.StrictMode>
-            <NotificationList/>
+            <ConfirmButton2/>
         </React.StrictMode>
     );
 },1000
