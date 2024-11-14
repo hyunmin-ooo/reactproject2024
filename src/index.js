@@ -23,12 +23,14 @@ import LoginControl2 from "./chp09/LoginControl2";
 import LandingPage from "./chp09/LandingPage";
 import AppNumberList from "./chp10/AppNumberList";
 import StudentAttendance from "./chp10/StudentAttendance";
+import AppStuendtAttendance from "./chp10/AppStuendtAttendance";
+import AttendanceCard from "./chp10/avatarAttendance/AttendanceCard";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 setInterval(() =>{
     root.render(
         <React.StrictMode>
-            <StudentAttendance/>
+            <AttendanceCard/>
         </React.StrictMode>
     );
 },1000
